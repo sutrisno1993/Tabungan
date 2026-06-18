@@ -83,6 +83,8 @@ export const dashboard = {
   getGlobalSummary: () => request('/dashboard/global-summary'),
   getPublic: (token) => request(`/dashboard/public/${token}`),
   getPublicStudentHistory: (token, nis) => request(`/dashboard/public/${token}/student/${nis}`),
+  getPublicSummary: () => request('/dashboard/public-summary'),
+  getPublicClass: (className) => request(`/dashboard/public-class/${encodeURIComponent(className)}`),
 }
 
 // ── Users (Wali Kelas) ────────────────────────────────────────────────────────

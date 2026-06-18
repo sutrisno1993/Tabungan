@@ -41,7 +41,19 @@ Aplikasi SITAB menyediakan tiga pintu masuk utama yang disesuaikan dengan peran 
     1.  Wali Kelas menyalin tautan monitoring dari dashboard kelas `/walas` dan membagikannya ke orang tua.
     2.  Orang tua membuka tautan tersebut pada HP/komputer mereka.
     3.  Orang tua memasukkan nama anak atau NIS pada kolom pencarian.
-    4.  Sistem menampilkan rincian sisa saldo tabungan, daftar histori setoran/penarikan, serta persentase kesiapan dana untuk agenda sekolah (SPP, Study Tour, dll.) secara transparan---
+    4.  Sistem menampilkan rincian sisa saldo tabungan, daftar histori setoran/penarikan, serta persentase kesiapan dana untuk agenda sekolah (SPP, Study Tour, dll.) secara transparan.
+
+### D. Portal Monitoring Publik (`/monitor`)
+*   **Target Pengguna**: Kepala Sekolah, Guru, Komite, atau masyarakat umum yang ingin melihat rangkuman transparansi keuangan tabungan sekolah tanpa perlu masuk (login).
+*   **Akses**: Dapat langsung diakses oleh siapa saja di URL `/monitor`.
+*   **Fitur Utama**:
+    1.  **Welcome Hero**: Pesan selamat datang interaktif.
+    2.  **Statistik Keuangan Sekolah**: Menampilkan total tabungan terkumpul, total siswa aktif, dan total kelas secara kumulatif.
+    3.  **Grafik Kas Masuk/Keluar**: Grafik visual arus kas bulanan setoran dan penarikan.
+    4.  **Papan Peringkat Kelas (Leaderboard)**: Daftar 5 kelas dengan tabungan saldo tertinggi untuk meningkatkan antusiasme menabung siswa.
+    5.  **Daftar Kelas & Detail Siswa**: Semua orang dapat mengklik tombol **Detail Kelas** untuk melihat daftar siswa dan saldo tabungannya secara transparan (dilengkapi dengan filter pencarian instan nama/NIS).
+
+---
 
 ## 3. PANDUAN MONITORING HARIAN (KEPALA SEKOLAH & WALI KELAS)
 
